@@ -90,7 +90,7 @@ from numpy import asarray, array, zeros, int32, isscalar, real, imag
 
 import vode as _vode
 import _dop
-import lsodar as _lsodar 
+import lsodar as _lsodar
 
 #------------------------------------------------------------------------------
 # User interface
