@@ -57,6 +57,11 @@ def configuration(parent_package='',top_path=None):
                          libraries=libs,
                          **newblas)
 
+    # lsodar
+    config.add_extension('lsodar',
+                         sources=['lsodar.pyf'],
+                         libraries=libs,
+                         **newblas)
     # dop
     config.add_extension('_dop',
                          sources=['dop.pyf'],
